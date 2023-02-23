@@ -23,7 +23,7 @@ app.get("/video", function (req, res) {
   }
 
   // get video stats (about 11MB)
-  const videoPath = "t1.mp4";
+  const videoPath = "Aerial Shot of a Lighthouse.mp4";
   const videoSize = fs.statSync(videoPath).size;
   console.log(videoSize)
 
